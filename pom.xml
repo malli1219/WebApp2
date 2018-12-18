@@ -82,7 +82,7 @@
 			<name>Internal Snapshot releases</name>
 			<url>http://192.168.84.168:8081/repository/webapp2-snapshot/</url>
 		</snapshotRepository>
-	 <distrubutionManagement>
+	 </distrubutionManagement>
     </build>
 
 </project>
