@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.selfieblue</groupId>
-    <artifactId>webapp1</artifactId>
+    <artifactId>webapp2</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>webapp1</name>
+    <name>webapp2</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -71,6 +71,18 @@
                 </executions>
             </plugin>
         </plugins>
+	<distrubutionManagement>
+		<repository>
+			<id>deployment</id>
+			<name>Internal Releases</name>
+			<url>http://192.168.84.168:8081/repository/webapp2-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>deployment</id>
+			<name>Internal Snapshot releases</name>
+			<url>http://192.168.84.168:8081/repository/webapp2-snapshot/</url>
+		</snapshotRepository>
+	 <distrubutionManagement>
     </build>
 
 </project>
