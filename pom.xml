@@ -71,18 +71,17 @@
                 </executions>
             </plugin>
         </plugins>
+    </build>
 	<distrubutionManagement>
 		<repository>
 			<id>deployment</id>
-			<name>Internal Releases</name>
+			<name>internal-releases</name>
 			<url>http://192.168.84.168:8081/repository/webapp2-releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>deployment</id>
-			<name>Internal Snapshot releases</name>
+			<name>internal-snapshot-releases</name>
 			<url>http://192.168.84.168:8081/repository/webapp2-snapshot/</url>
 		</snapshotRepository>
 	 </distrubutionManagement>
-    </build>
-
 </project>
